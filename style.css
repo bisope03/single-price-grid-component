@@ -1,6 +1,11 @@
 html{
     box-sizing: border-box;
 }
+
+h2, h4, p {
+    margin: 0;;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -8,17 +13,33 @@ html{
 #card {
     width: 630px;
     height: 465px;
-    border: 3px solid red;
+  
 }
 
 #top-section{
     width: 100%;
     height: 45%;
-    border: 2px solid green;
+    
 }
 
 #bottom-section{
     width: 100%;
     height: 55%;
-    border: 2px solid blue;
+
+}
+/*inline-block elements respects width so there's no space in the div element in the bottom-section*/
+#bottom-left-section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color:  #2ab2af;
+}
+
+#bottom-right-section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #43ccc9;
 }
