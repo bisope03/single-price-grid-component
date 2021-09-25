@@ -11,13 +11,14 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Cyan: hsl(179, 62%, 43%)
-- Bright Yellow: hsl(71, 73%, 54%)
+- Cyan: hsl(179, 62%, 43%) - (darker) #2ab2af, (Lighter) #2EBFBD //bottom background, 
+- Bright Yellow: hsl(71, 73%, 54%) -(Lighter) #c0df34, (darker) #87a115 // sign up, text
+
 
 ### Neutral
 
-- Light Gray: hsl(204, 43%, 93%)
-- Grayish Blue: hsl(218, 22%, 67%)
+- Light Gray: hsl(204, 43%, 93%) - #e5eff5 //top background
+- Grayish Blue: hsl(218, 22%, 67%) - #98a6bd // p text
 
 ## Typography
 
